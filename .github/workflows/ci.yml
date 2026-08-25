@@ -78,7 +78,7 @@ jobs:
       uses: softprops/action-gh-release@v2
       with:
         tag_name: main-${{ github.sha }}
-        name: Main build ${{ github.sha }}
+        name: Latest
         target_commitish: ${{ github.sha }}
         files: |
           pdfs/acle-${{ steps.vars.outputs.short_sha }}.pdf
