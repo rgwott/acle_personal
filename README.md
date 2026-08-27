@@ -56,18 +56,13 @@ an email to arm.acle@arm.com.
 
 ## List of documents
 
-[Arm C Language Extensions](https://arm-software.github.io/acle/main/)
-
-[Morello Supplement to the Arm C Language Extensions](https://arm-software.github.io/acle/morello/)
-
-[Arm MVE Intrinsics](https://arm-software.github.io/acle/mve_intrinsics/)
-
-[Arm Neon Intrinsics Reference](https://arm-software.github.io/acle/neon_intrinsics/)
-
-[Arm®v8-M Security Extensions - Requirements on Development Tools](https://arm-software.github.io/acle/cmse/)
-
-The PDF versions can be found in the latest GitHub
-[release](https://github.com/ARM-software/acle/releases/latest).
+HTML version                                                                                                  | PDF version
+---                                                                                                           | ---
+[Arm C Language Extensions](https://arm-software.github.io/acle/main/)                                        | [download](https://github.com/ARM-software/acle/releases/latest)
+[Morello Supplement to the Arm C Language Extensions](https://arm-software.github.io/acle/morello/)           | [download](https://github.com/ARM-software/acle/releases/latest)
+[Arm MVE Intrinsics](https://arm-software.github.io/acle/mve_intrinsics/)                                     | [download](https://github.com/ARM-software/acle/releases/latest)
+[Arm Neon Intrinsics Reference](https://arm-software.github.io/acle/neon_intrinsics/)                         | [download](https://github.com/ARM-software/acle/releases/latest)
+[Arm®v8-M Security Extensions - Requirements on Development Tools](https://arm-software.github.io/acle/cmse/) | [download](https://github.com/ARM-software/acle/releases/latest)
 
 # License
 
