@@ -82,7 +82,7 @@ jobs:
         GH_TOKEN: ${{ github.token }}
       run: |
         gh api repos/${{ github.repository }}/releases --paginate --jq '.[] | select(.name == "Latest") | .tag_name' | while read -r tag_name; do
-          gh release delete "$tag_name" --yes --cleanup-tag
+          gh release delete "$tag_name" --repo "${{ github.repository }}" --yes --cleanup-tag
         done
     - name: Create Latest release with PDFs
       uses: softprops/action-gh-release@v3
